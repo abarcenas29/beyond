@@ -23,9 +23,9 @@
 	<section id="social-features" class="table-child footer-menus">
 	    <h3>Social Features</h3>
 	    <ul>
-		<li><?php print_anchor_image('#', 'source/images/github.png') ?></li>
+		<li><?php print_anchor_image('http://github.com/abarcenas29', 'source/images/github.png') ?></li>
 		<li><?php print_anchor_image('#', 'source/images/facebook.png') ?></li>
-		<li><?php print_anchor_image('#', 'source/images/twitter.png') ?></li>
+		<li><?php print_anchor_image('http://twitter.com/solidad', 'source/images/twitter.png') ?></li>
 		<li><?php print_anchor_image('#', 'source/images/google-plus.png') ?></li>
 		<li><?php print_anchor_image('#', 'source/images/youtube.png') ?></li>
 	    </ul>

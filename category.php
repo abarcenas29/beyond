@@ -17,7 +17,7 @@
 		<h3><?php print_anchor(get_permalink() , get_the_title()); ?></h3>
 		<?php the_excerpt(); ?>
 		<p>By: <?php print get_the_author() ?> 
-			Published On: <?php print get_the_time() ?></p>
+			Published On: <?php print get_the_time('Y-m-d') ?></p>
 	</div>
 	</section>
 		

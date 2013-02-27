@@ -13,18 +13,9 @@ TAGS: custom
 	margin:0 auto 0 auto;
 }
 
-@media print {
+@media print 
+{
 
-	#dmp-navigation, #social-bar, #the-cat, .sharedaddy, #global-nav, #side-content {display:none;}
-
-	#dmp-brand .osaka-font {
-		text-align:center;
-		color: #910000;
-	}
-
-	#footer-wrapper {text-align:center;}
-
-	
 }
 
 .footer-author-card {

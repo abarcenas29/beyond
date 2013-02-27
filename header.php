@@ -26,19 +26,13 @@
     <section id="main-header-container" class="display-table-content">
     <article id="main-header-content">
     <section id="main-header-title" class="table-child">
-		<h1><?php print_anchor(blog_url(''), 'Beyond Objective') ?></h1>
+	<h1><?php print_anchor(blog_url('/'),  get_bloginfo('name') ) ?></h1>
     </section>
     <aside id="main-header-side" class="table-child">
 	
-	<?php get_search_form(); ?>
-	
-	<!--
-	<input type="search" 
-	       name="main-header-search" 
-	       id="main-header-search"
-	       placeholder="Search Posts"/>
-    -->
-	</aside>
+    <?php get_search_form(); ?>
+
+    </aside>
     </article>
     </section>
 </header>
