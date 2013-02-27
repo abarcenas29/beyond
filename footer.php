@@ -64,6 +64,8 @@ $(document).ready(function(){
 		var getObjectId = $(this).attr('id');
 		$('#' + getObjectId + ' ' + '.sub-menu').hide(100);
 	});
+	
+	$('#wpstats').hide();
 });
 </script>
 <!-- footer hooks goes here -->
