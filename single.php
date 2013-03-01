@@ -19,8 +19,10 @@
 	<section id="single-content">
 	    <?php the_content(); ?>
 	</section>
+	<footer id="single-footer">
+		<?php comments_template(); ?>
+	</footer>
 	</article>
-	
     </section>
     <!-- Aside Content -->
     <aside id="home-sidebar" class="table-child padding">

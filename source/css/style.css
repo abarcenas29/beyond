@@ -372,6 +372,7 @@ p {
 }
 #single-post #single-content img {
   padding: 0.5em 0;
+  border: none;
 }
 #single-post #single-content h2 {
   font-size: 1.5em;
@@ -387,6 +388,9 @@ p {
 }
 #single-post #single-content p {
   margin: 0.5em 0;
+}
+#single-post #single-footer {
+  font-family: 'Roboto', sans-serif;
 }
 #single-post .aligncenter {
   margin: 0 auto;
