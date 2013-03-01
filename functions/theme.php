@@ -33,6 +33,7 @@
 			$cat_object = get_category($cat);
 			$breadcrumb[$c]['cat-url']  = blog_url('category/'.$cat_object->slug);
 			$breadcrumb[$c]['name']		= $cat_object->name;
+			$c++;
 		}
 		return $breadcrumb;
 	}
