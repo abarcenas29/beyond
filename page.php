@@ -6,8 +6,6 @@
     <section id="home-content" class="table-child padding">
 	<!-- Start of Single Loop -->
 	<article id="single-post">
-	<header>
-	</header>
 	<section id="single-header">
 	    <h2><?php print_object(get_the_title()) ?></h2>
 	</section>
