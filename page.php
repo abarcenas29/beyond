@@ -7,11 +7,6 @@
 	<!-- Start of Single Loop -->
 	<article id="single-post">
 	<header>
-	    <ul>
-		<?php foreach (single_breadcrumb(get_the_ID()) as $cat): ?>
-		<li><?php print_anchor($cat['cat-url'], $cat['name']); ?></li>
-		<?php endforeach; ?>
-	    </ul>
 	</header>
 	<section id="single-header">
 	    <h2><?php print_object(get_the_title()) ?></h2>
