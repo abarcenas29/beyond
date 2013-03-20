@@ -55,7 +55,7 @@
 	    <h4><?php print_object(get_the_title()); ?></h4>
 	    <p><?php print_object(get_the_excerpt()) ?></p>
 	    <p class="sub-text">
-		Posted On: <?php print_object(get_the_time('Y-m-d')); ?> Filed Under: Blah Blah
+			Posted On: <?php print_object(get_the_time('Y-m-d')); ?> Filed Under: <?php print_object(get_the_author()) ?>
 	    </p>
 	</div>
 	</a>
